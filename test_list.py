@@ -26,7 +26,8 @@ class TestListMethods(unittest.TestCase):
 
     def test_Anastasia_Zatsarenko_FI94(self):
         list1 = [2, 1, 3, 4, 5]
-        self.assertEqual(swap_the_first_elements(list1), [1, 2, 3, 4, 5])
+        list1 = swap_the_first_elements(list1)
+        self.assertEqual(list1, [1, 2, 3, 4, 5])
 
 
 if __name__ == '__main__':
