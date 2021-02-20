@@ -3,6 +3,7 @@ import unittest
 
 def swap_the_first_elements(list):
     list[0], list[1] = list[1], list[0]
+    return list
 
 
 class TestListMethods(unittest.TestCase):
