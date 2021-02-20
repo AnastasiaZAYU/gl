@@ -1,8 +1,8 @@
 import unittest
 
 
-def swap_the_first_elements(list2):
-    list2[0], list2[1] = list2[1], list[0]
+def swap_the_first_elements(list):
+    list[0], list[1] = list[1], list[0]
 
 
 class TestListMethods(unittest.TestCase):
