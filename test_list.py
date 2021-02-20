@@ -1,7 +1,9 @@
 import unittest
 
+
 def swap_the_first_elements(list2):
     list2[0], list2[1] = list2[1], list[0]
+
 
 class TestListMethods(unittest.TestCase):
 
@@ -26,6 +28,6 @@ class TestListMethods(unittest.TestCase):
         list1 = [2, 1, 3, 4, 5]
         self.assertEqual(swap_the_first_elements(list1), [1, 2, 3, 4, 5])
 
-        
+       
 if __name__ == '__main__':
     unittest.main()
