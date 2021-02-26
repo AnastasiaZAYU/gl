@@ -2,9 +2,16 @@ import unittest
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 def swap_the_first_elements(list):
     list[0], list[1] = list[1], list[0]
 =======
+=======
+
+def swap_the_first_elements(list):
+    list[0], list[1] = list[1], list[0]
+
+>>>>>>> 11127d87f274fb05e76e380f7a21640146919e43
 def get_second_to_fifth_elements(a):
     return a[2:5]
 
@@ -43,7 +50,10 @@ def del_third_element(list):
 
 def swap_elements(list):
     list[1], list[2] = list[2], list[1]
+<<<<<<< HEAD
 >>>>>>> a12e61c21b5b618232f1b8ad4c9e0e6626379eaa
+=======
+>>>>>>> 11127d87f274fb05e76e380f7a21640146919e43
     return list
 
 
@@ -86,11 +96,19 @@ class TestListMethods(unittest.TestCase):
         self.assertEqual([1, 2, 3] + [4, 5, 6], [1, 2, 3, 4, 5, 6])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 11127d87f274fb05e76e380f7a21640146919e43
     def test_Anastasia_Zatsarenko_FI94(self):
         list1 = [2, 1, 3, 4, 5]
         list1 = swap_the_first_elements(list1)
         self.assertEqual(list1, [1, 2, 3, 4, 5])
+<<<<<<< HEAD
 =======
+=======
+
+>>>>>>> 11127d87f274fb05e76e380f7a21640146919e43
     def test_schifrin_denis_fi_93(self):
         self.assertEqual([1, 2, 3, 4], [1, 2, 3, 4])
 
@@ -141,7 +159,11 @@ class TestListMethods(unittest.TestCase):
     def test_Daria_Kovalenko_FI93(self):
         list = [2, 4, 6, 8, 10, 12, 14]
         self.assertEqual(swap_elements(list), [2, 6, 4, 8, 10, 12, 14])
+<<<<<<< HEAD
 >>>>>>> a12e61c21b5b618232f1b8ad4c9e0e6626379eaa
+=======
+
+>>>>>>> 11127d87f274fb05e76e380f7a21640146919e43
 
 
 if __name__ == '__main__':
